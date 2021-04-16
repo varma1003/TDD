@@ -12,7 +12,7 @@ public class TestArea {
 
     @Test
     public void test_circle_area() {
-        assertEquals(5, st.circle_area(4));
+        assertEquals(50, st.circle_area(4));
     }
 
     @Test
