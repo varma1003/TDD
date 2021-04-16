@@ -19,4 +19,9 @@ public class TestArea {
     public void test_rectangle_area(){
         assertEquals(20, st.rectangle_area(4,5));
     }
+
+    @Test
+    public void test_triangle_area(){
+        assertEquals(10, st.triangle_area(4,5));
+    }
 }
