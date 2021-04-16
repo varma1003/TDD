@@ -11,7 +11,8 @@ public class Area {
 
     public int rectangle_area(int h, int l){
         double r_area = h * l;
-        return (int) r_area;
+        //return (int) r_area;
+        return 0;
     }
 
     public int triangle_area(int h, int b){
