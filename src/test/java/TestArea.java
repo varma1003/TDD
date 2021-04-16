@@ -10,5 +10,8 @@ public class TestArea {
         st = new Area();
     }
 
-
+    @Test
+    public void test_circle_area(){
+        assertEquals(50,st.circle_area(4));
+    }
 }
