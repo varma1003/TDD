@@ -12,16 +12,16 @@ public class TestArea {
 
     @Test
     public void test_circle_area(){
-        assertEquals(5,st.circle_area(4));
+        assertEquals(50,st.circle_area(4));
     }
 
     @Test
     public void test_rectangle_area(){
-        assertEquals(2, st.rectangle_area(4,5));
+        assertEquals(20, st.rectangle_area(4,5));
     }
 
     @Test
     public void test_triangle_area(){
-        assertEquals(1, st.triangle_area(4,5));
+        assertEquals(10, st.triangle_area(4,5));
     }
 }
