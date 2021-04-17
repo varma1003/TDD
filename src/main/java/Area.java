@@ -16,6 +16,5 @@ public class Area {
     public int triangle_area(int h, int b){
         double t_area = (h * b)/2.0;
         return (int) t_area;
-
     }
 }
